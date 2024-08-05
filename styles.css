@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#controls-container {
+    margin-bottom: 20px;
+}
+
+input, button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#grid-size-input {
+    width: 200px;
+}
+
+#grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px; /* Fixed width for the grid */
+    height: 600px; /* Fixed height for the grid */
+    border: 1px solid #000;
+}
+
+.grid-item {
+    box-sizing: border-box;
+    border: 1px solid #000000; /* Optional: for a visible grid */
+    transition: background-color 0.2s; /* Smooth color transition */
+}
